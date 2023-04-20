@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    main > p {
+        margin-top: 1px;
+    }
+
+        main > p > a {
+            text-decoration: underline;
+        }
+
+    main > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+        main > ul > li {        
+            list-style: decimal;
+        }
+
+        main > ul > h4 {
+            padding: 0.2rem 0.5rem;
+        }

@@ -1,0 +1,80 @@
+#switch-thema {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+html.bg-dark {
+    color: white;
+}
+
+    html.bg-dark .text-highlight {
+        background-color: rgb(87, 87, 0);
+    }
+
+    html.bg-dark #switch-thema {
+        color: white;
+        background-color: black;
+    }
+
+    html.bg-dark > body {    
+        background-color: rgb(51, 51, 51);
+    }
+
+    html.bg-dark header {
+        background-color: rgb(34, 34, 34);
+    }
+
+    html.bg-dark footer {
+        background-color: rgb(34, 34, 34);
+    }
+
+    html.bg-dark div {
+        background-color: rgb(17, 17, 17);
+    }
+
+    html.bg-dark a {
+        color: white;
+    }
+
+    html.bg-dark li.active {
+        background-color: rgb(18, 6, 51);
+    }
+
+html.bg-light {
+    color: black;
+}
+
+    html.bg-light .text-highlight {
+        background-color: rgb(255, 255, 0);
+    }
+
+    html.bg-light #switch-thema {
+        color: black;
+        background-color: white;
+    }
+
+    html.bg-light> body {    
+        background-color: white;
+    }
+
+    html.bg-light header {
+        background-color: rgb(211, 211, 211);
+    }
+
+    html.bg-light footer {
+        background-color: rgb(211, 211, 211);
+    }
+
+    html.bg-light div {
+        background-color: rgb(170, 170, 170);
+    }
+
+    html.bg-light a {
+        color: black;
+    }
+
+    html.bg-light li.active {
+        background-color: rgb(3, 169, 252);
+    }
